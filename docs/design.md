@@ -116,7 +116,7 @@ Each fan group is represented by a single queue entry.
 The representative is selected using the following priority:
 
 1. Earliest queue join time
-2. Highest loyalty level
+2. Highest loyalty points
 3. Lowest entry ID (deterministic tie-break)
 
 ## 7. Scoring Strategy
@@ -126,9 +126,9 @@ Each representative receives a priority score.
 The score is calculated from multiple factors:
 
 - Waiting time
-- Loyalty level
+- Loyalty points
 - VIP status
-- Ticket quantity
+- Ticket value
 - Event-specific bonuses
 
 Each factor contributes a configurable weight to the final score.
@@ -140,7 +140,7 @@ The representative with the highest score becomes the winner.
 If two representatives have the same score, the following rules are applied:
 
 1. Earlier queue join time
-2. Higher loyalty level
+2. Higher loyalty points
 3. Lower entry ID
 
 This guarantees deterministic results.
