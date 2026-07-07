@@ -133,5 +133,5 @@ npm run build
 
 โปรเจกต์นี้ถูกตรวจสอบแล้วด้วยผลดังนี้
 
-- เทสต์ผ่าน 9 test case
+- เทสต์ผ่าน 11 test case
 - Build สำหรับ production สำเร็จ
